@@ -1,0 +1,29 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-holder {
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.placeholder {
+  font-size: 21px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 12px;
+  text-transform: uppercase;
+}
+
+.bio {
+  padding: 10px;
+}

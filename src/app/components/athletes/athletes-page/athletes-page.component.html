@@ -1,0 +1,6 @@
+<div class="athletes-page">
+  <h1>Athletes from {{ countryName }}</h1>
+  <div class="athletes-container">
+    <app-athlete-container *ngFor="let athlete of athletes" [athlete]="athlete"></app-athlete-container>
+  </div>
+</div>

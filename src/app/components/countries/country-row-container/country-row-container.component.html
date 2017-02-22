@@ -1,0 +1,8 @@
+<div class="container card" (click)="goToAthletes()">
+    <div class="country">
+        {{ country.name }}
+    </div>
+    <div class="medals">
+      <app-medal-count-total [medals]="country.medals"></app-medal-count-total>
+    </div>
+</div>

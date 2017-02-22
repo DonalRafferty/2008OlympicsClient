@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="icon-holder">
+    <div class="placeholder" [ngStyle]="{'background-color': getRandomColor()}">
+      <span>{{athlete.name.slice(0, 2)}}</span>
+    </div>
+  </div>
+  <div class="bio">
+    <div>{{ athlete.name }}</div>
+    <app-athlete-events [events]="athlete.events"></app-athlete-events>
+  </div>
+</div>
