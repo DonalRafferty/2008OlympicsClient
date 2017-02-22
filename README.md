@@ -19,6 +19,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Improvements to be made
 
-Implement error handling, currently the app just bubbles errors and consumes them silently, not good!
-Some components have the minimum tests and should be filled out with more robust testing
-Add end to end testing
+* Implement error handling, currently the app just bubbles errors and consumes them silently, not good!
+* Some components have the minimum tests and should be filled out with more robust testing
+* Add end to end testing
